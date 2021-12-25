@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    {
+      "name": "identity",
+      "public": false,
+      "type": "field"
+    }
+  ],
+  "outputs": [
+    {
+      "type": "field"
+    }
+  ]
+}

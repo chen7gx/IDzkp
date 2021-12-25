@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "name": "identity",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "rnd",
+      "public": true,
+      "type": "field"
+    }
+  ],
+  "outputs": [
+    {
+      "type": "bool"
+    }
+  ]
+}
