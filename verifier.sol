@@ -157,6 +157,7 @@ contract Verifier {
         Pairing.G2Point b;
         Pairing.G1Point c;
     }
+    mapping(string =>bool)  recored;
     function verifyingKey() pure internal returns (VerifyingKey memory vk) {
         vk.alpha = Pairing.G1Point(uint256(0x2289c29c765fbb870ea338dbcff9501c82e6fdd7ecb77d002896f13cf9decc63), uint256(0x28f7d8d4a8211bd67efc0cef3a19ac2f76b49a8a93035f5c419595e2a46c4a24));
         vk.beta = Pairing.G2Point([uint256(0x1de051dd97ae050c052605c7f67d7904759bd20a9c7acc5ec58d83c20ef80a48), uint256(0x2f4d7523329c0e25f05d6fd9bde674f8159ee3f81c10351029061d53ce5362fc)], [uint256(0x1278b6b8b613255d8132ecc2a791d42797c462e7f8c7c498b2d405e670ce83ac), uint256(0x27715065065c7ee8209321a82a63d17da55580a6f95f5580e524544a9175ccee)]);
